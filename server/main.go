@@ -99,5 +99,4 @@ func handle_client(conn net.Conn, state *server_state) {
 
 func log_error(message string) {
     fmt.Printf("Error: %s\n", message)
-    panic("123")
 }
